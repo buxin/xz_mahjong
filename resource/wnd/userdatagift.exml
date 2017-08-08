@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="userdatagift" width="421" height="498" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="userdatagift985"/>
+	<e:Image source="ubg_png" x="0" y="0"/>
+	<e:Image id="tirenButton" source="tr_png" x="286" y="317"/>
+	<e:Image id="gules" source="q_png" x="102" y="102"/>
+	<e:Image id="closeButton" source="out_png" x="385" y="-33"/>
+	<e:Label id="gameNumberTxt" text="100" x="117" y="166" anchorOffsetX="0" width="203" anchorOffsetY="0" height="43" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="stateNumberTxt" text="100" x="132" y="243" anchorOffsetX="0" width="173" anchorOffsetY="0" height="43" textAlign="center" verticalAlign="middle" size="25"/>
+	<e:Label id="nameTxt" text="" x="201" y="20" anchorOffsetX="0" width="198" anchorOffsetY="0" height="58" textAlign="left" verticalAlign="middle" size="24"/>
+	<e:Image id="headMasMc" source="u1_png" x="127.86" y="20.54"/>
+	<e:Scroller id="_scroller" width="389" height="87" x="18" y="401" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="_group" anchorOffsetY="0" height="87" x="0" y="117" anchorOffsetX="0" width="334.17"/>
+	</e:Scroller>
+	<e:Image source="jt2_png" x="393" y="424.33"/>
+	<e:Image source="jt2_png" x="29.64" y="466.32" rotation="181.77"/>
+	<e:Rect id="page_left" width="44" height="90.66" x="-8" y="397.67" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true" visible="false"/>
+	<e:Rect id="page_right" width="44" height="90.66" x="376" y="396.34" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true" visible="false"/>
+</e:Skin>

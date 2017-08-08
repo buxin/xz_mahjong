@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="systemsettings" width="545" height="336" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="systemsettings3"/>
+	<e:Image source="setbg_png" x="0" y="0"/>
+	<e:Image id="soundIco" source="setico_png" x="461" y="114"/>
+	<e:Image id="dialectIco" source="setico_png" x="460" y="176"/>
+	<e:Rect id="soundButton" width="128" height="65" x="390" y="103" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+	<e:Rect id="dialectButton" width="128" height="53" x="397" y="174" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+</e:Skin>

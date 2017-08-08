@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="userdirection" width="194" height="149" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="dfg123"/>
+	<e:BitmapLabel id="timerTxt" x="32" y="44" font="numberfont_fnt" text="02" anchorOffsetX="0" width="54.66"/>
+	<e:BitmapLabel id="bnumsTxt" x="139.66" y="45.5" text="02" anchorOffsetX="0" width="122.66" font="yellowFont_fnt"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="headimage" width="64" height="64" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="headimagedssdfsf"/>
+	<e:Image id="bg" source="u0_png" x="0" y="0"/>
+	<e:Image id="maskMc" source="u1_png" x="0" y="0"/>
+</e:Skin>

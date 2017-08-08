@@ -1,0 +1,9 @@
+{
+    "maxImageWidth": 2000,
+    "maxImageHeight": 2000,
+    "defaultResPath": "d:\\syn2\\niunai\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true,
+        "beforePreload": false
+    }
+}

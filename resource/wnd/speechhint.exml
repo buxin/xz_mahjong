@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="speechhint" width="105" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="speechhint1213"/>
+	<e:Image source="dhk_png" x="0" y="0"/>
+	<e:Label text="点击发送\n上滑取消" x="-2" y="6" anchorOffsetX="0" width="105" anchorOffsetY="0" height="52" size="19" verticalAlign="top" textAlign="center" lineSpacing="5"/>
+	<e:Label id="timerText" text="0&quot;" x="0" y="51" anchorOffsetX="0" width="105" anchorOffsetY="0" height="49" size="40" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

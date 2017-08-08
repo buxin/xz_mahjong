@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="game" width="1166" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1sdfdsa3"/>
+	<e:Image id="bg" source="bg_jpg" x="0" y="0"/>
+	<e:Image id="logo" source="gamelogo_png" x="534" y="362" anchorOffsetX="226" anchorOffsetY="242"/>
+</e:Skin>

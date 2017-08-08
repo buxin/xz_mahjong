@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="newslistobject" width="438" height="123" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="newslistobject12"/>
+	<e:Image source="object_png" x="0" y="0" anchorOffsetY="0" height="109"/>
+	<e:Image source="u0_png" x="21" y="24"/>
+	<e:Image id="masMc" source="u1_png" x="21" y="24"/>
+	<e:Label id="txt" text="标签" x="96.33" y="10.02" anchorOffsetX="0" width="320" anchorOffsetY="0" height="93.33" size="28"/>
+</e:Skin>

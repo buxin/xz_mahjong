@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="giftobject" width="77" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="giftobjectff3"/>
+	<e:Image id="ico" source="giftico_json.giftico0" x="8.8" y="8"/>
+	<e:Image source="zs_png" x="19.6" y="58" scaleX="0.77" scaleY="0.73"/>
+	<e:Label id="txt" text="0" x="39" y="56" size="22"/>
+</e:Skin>

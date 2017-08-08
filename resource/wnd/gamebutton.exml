@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gamebutton" width="1166" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="dfgfdg"/>
+	<e:Image id="emojiButton" source="emoji0_png" x="1062" y="559" anchorOffsetX="39" anchorOffsetY="33"/>
+	<e:Image id="speechButton" source="speech0_png" x="1070" y="480" anchorOffsetX="35" anchorOffsetY="36"/>
+	<e:Image id="txtButton" source="text0_png" x="1068" y="414" anchorOffsetX="35" anchorOffsetY="36"/>
+	<e:Button id="menuButton" label="" x="27.81" y="8.09">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="menu0_png" source.down="menu1_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="setButton" label="" x="1008" y="-1">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="set0_png" source.down="set1_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Image id="guoButton" source="guo_png" x="941" y="443" anchorOffsetX="67" anchorOffsetY="64"/>
+	<e:Image id="gangButton" source="gang_png" x="663" y="444" anchorOffsetX="65" anchorOffsetY="64"/>
+	<e:Image id="pengButton" source="peng_png" x="338" y="424" anchorOffsetX="65" anchorOffsetY="64"/>
+	<e:Image id="huButton" source="hu_png" x="807" y="437" anchorOffsetX="65" anchorOffsetY="60"/>
+	<e:Image id="chiButton" source="chi_png" x="194" y="424" anchorOffsetX="62" anchorOffsetY="65"/>
+	<e:Group id="menuList" width="219" height="295" x="92" y="36" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image source="munbutton_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Rect id="button0" width="203" height="68" x="3" y="1" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+		<e:Rect width="203" height="68" x="4" y="74" anchorOffsetX="0" anchorOffsetY="0" id="button1" fillAlpha="0"/>
+		<e:Rect width="203" height="68" x="4" y="146" anchorOffsetX="0" anchorOffsetY="0" id="button2" fillAlpha="0"/>
+		<e:Rect width="203" height="68" x="3" y="216" anchorOffsetX="0" anchorOffsetY="0" id="button3" fillAlpha="0"/>
+	</e:Group>
+</e:Skin>

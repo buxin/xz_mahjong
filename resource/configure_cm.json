@@ -1,0 +1,27 @@
+﻿{
+  "gameType":"2",
+  "loginlink":"http://www.amo9.com/games/mar/naliqu/hall/",
+  "halllink":"http://www.amo9.com/games/mar/naliqu/hall/",
+  "hallversion":"http://www.amo9.com/games/mar/naliqu/hall/gproperty.do?pkey=verhall",
+  "jssdkUrl":"http://www.amo9.com/jssdk/sign.do?url=",
+  "speakUp":"http://www.amo9.com/wxsdk/load.do",
+  "speakUrl":"http://www.amo9.com/voices/",
+  "speak":
+  [
+  {"id":1,"txt":"快点吧！等的我花儿都谢了！"}
+  ,{"id":2,"txt":"和你合作真是太愉快了！"}
+  ,{"id":3,"txt":"你这么牛X你家人知道吗？"}
+  ,{"id":4,"txt":"哦，糟了!"}
+  ,{"id":5,"txt":"怎么又断线了，网络也太差了！"}
+  ,{"id":6,"txt":"不胜利,毋宁死！"}
+  ,{"id":7,"txt":"别吵了别吵了，专心玩游戏吧！"}
+  ,{"id":8,"txt":"不要走，决定到天亮！"}
+  ,{"id":9,"txt":"土豪，我们做朋友吧！"}
+  ],
+  "emoji":
+  [
+  {"button":"eico","number":14,"animation":"emoji"},
+  {"button":"lowrie","number":11,"animation":"lowriemc"},
+  {"button":"pig","number":11,"animation":"pigmc"}
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sendtxt" width="530" height="401" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="dfgdf3"/>
+	<e:Image x="0" y="0" source="txtwnd_png"/>
+	<e:Scroller id="_scroller" width="511" height="264" x="8" y="8" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="txtWnd" anchorOffsetX="0" width="512" anchorOffsetY="0" height="267" y="1" x="1">
+		</e:Group>
+	</e:Scroller>
+	<e:EditableText id="txt" width="377" height="53" text="" x="27" y="307" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" maxChars="20" size="25"/>
+	<e:Image id="closeButton" source="out_png" x="529" y="3" anchorOffsetX="33" anchorOffsetY="33"/>
+	<e:Rect id="sendButton" width="111" height="67" x="403" y="299" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+</e:Skin>

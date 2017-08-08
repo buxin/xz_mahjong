@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="startgame" width="332" height="312" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="dsfgdfgdfg"/>
+	<e:Image source="txt1_png" y="4" x="58"/>
+	<e:Image id="startButton" source="buuton02_png" x="168" y="247" anchorOffsetX="114" anchorOffsetY="45"/>
+	<e:Label text="本局时长:" x="51" y="61" anchorOffsetX="0" width="144" anchorOffsetY="0" height="34" textAlign="right" verticalAlign="justify" size="28"/>
+	<e:Label text="后未开局房间将解散" x="80" y="134" anchorOffsetX="0" width="281" anchorOffsetY="0" height="34" textAlign="left" verticalAlign="justify" size="28"/>
+	<e:Label id="rtypeTxt" text="" x="69" y="169" anchorOffsetX="0" width="207" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="justify" size="28"/>
+	<e:Label text="房主:" x="99" y="97" anchorOffsetX="0" width="87" anchorOffsetY="0" height="34" textAlign="right" verticalAlign="justify" size="28"/>
+	<e:Label id="rtimeTxt" text="0分钟" x="197" y="61" anchorOffsetX="0" width="158" anchorOffsetY="0" height="34" textAlign="left" verticalAlign="justify" size="28"/>
+	<e:Label id="theOwnerTxt" text="" x="190" y="97" anchorOffsetX="0" width="158" anchorOffsetY="0" height="34" textAlign="left" verticalAlign="justify" size="28"/>
+	<e:Label id="ctimeTxt" text="" x="-35" y="134" anchorOffsetX="0" width="110" anchorOffsetY="0" height="36" verticalAlign="justify" size="28" textAlign="right" textColor="0xffff00"/>
+</e:Skin>

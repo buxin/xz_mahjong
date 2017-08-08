@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="textdialogue" width="220" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="sdfsdf"/>
+	<e:Image id="bg" source="txtbg_png" x="110" y="21" anchorOffsetX="110" width="-140" anchorOffsetY="21"/>
+	<e:Image id="border" source="txtbg2_png" x="0" y="0"/>
+	<e:Label id="txt" text="" x="7" y="4" anchorOffsetX="0" width="204" size="22" textColor="0x291300" verticalAlign="justify" anchorOffsetY="0" height="28" multiline="false" wordWrap="false" border="false"/>
+</e:Skin>

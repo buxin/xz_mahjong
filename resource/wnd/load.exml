@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="load" width="1166" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="h24dfa3"/>
+	<e:Rect id="bg" width="20" height="20" x="0" y="0" fillColor="0xebecf0"/>
+	<e:Group id="_group" width="200" height="200" x="542" y="358" anchorOffsetX="211" anchorOffsetY="311">
+		<e:Image source="load_jpg" x="0" y="352" scaleX="1" scaleY="1"/>
+		<e:Image id="loadICO" source="load_png" x="122" y="556" scaleX="1" scaleY="1" width="250"/>
+		<e:Label id="txt" text="0%" x="62" y="558" textColor="0x1f1e1e" size="20"/>
+	</e:Group>
+</e:Skin>

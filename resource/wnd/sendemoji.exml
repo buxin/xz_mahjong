@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sendemoji" width="638" height="401" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="ghjghjy"/>
+	<e:Image source="emojiwnd_png" x="0"/>
+	<e:Scroller width="621" height="383" x="9" y="9" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="_group" x="-10" y="0" anchorOffsetX="0" width="348"/>
+	</e:Scroller>
+	<e:Image id="closeButton" source="out_png" x="640" y="1" anchorOffsetX="33" anchorOffsetY="32"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="end" width="1166" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="end121212"/>
+	<e:Rect id="bg0" width="20" height="20" x="0" y="0" fillAlpha="0.1"/>
+	<e:Group id="_group" width="200" height="200" x="107" y="56">
+		<e:Image id="bg" source="hintbg_png" scale9Grid="23,20,572,254" y="0"/>
+		<e:Label id="htsTxt" text="" x="30" y="97"/>
+		<e:Image id="ok" source="endok_png" x="385.15" y="461"/>
+		<e:Image id="nullImage" source="lj_png" x="320.65" y="86.55"/>
+		<e:Label id="totalTxt" text="" x="0" y="0" anchorOffsetX="0" width="419" anchorOffsetY="0" height="38" textAlign="right" verticalAlign="middle" textColor="0xdef228"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gamecontent" width="1166" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1sdfdsa3"/>
+	<e:Image id="userPosition0" source="position0_png" x="60" y="507"/>
+	<e:Image source="position0_png" x="1047" y="215" id="userPosition1"/>
+	<e:Image source="position0_png" x="249" y="89" id="userPosition2"/>
+	<e:Image source="position0_png" x="34" y="221" id="userPosition3"/>
+	<e:Group id="mahjong" width="1166" height="720" x="0" y="0"/>
+	<e:Group id="gift" width="200" height="200" x="0" y="0"/>
+	<e:Group id="animation" width="1166" height="720" x="0" y="0">
+	</e:Group>
+	<e:Group id="effect" width="200" height="200" x="0" y="0"/>
+	<e:Group id="hint" width="200" height="200" x="0" y="0" visible="false">
+		<e:Image source="txtb_png" x="225" y="0"/>
+		<e:Label id="hintTxt" text="标签" x="0" y="2" anchorOffsetX="0" width="1166" textAlign="center" size="22" verticalAlign="middle" anchorOffsetY="0" height="34"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="usericon" width="89" height="138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="sdfgdfg"/>
+	<e:Image id="emptyBim" x="0" y="0" source="position2_png"/>
+	<e:Image id="headBg" source="u0_png" x="13" y="12" locked="true"/>
+	<e:Image id="masMc" source="u1_png" x="13.2" y="12.2" locked="true"/>
+	<e:Image id="bankerBim" source="banker_png" x="0" y="0" visible="false"/>
+	<e:Image id="readyBim" source="readyText_png" x="12" y="35" visible="false"/>
+	<e:Image id="leaveBim" source="leaveTxt_png" x="13" y="46" visible="false"/>
+	<e:Label id="leaveTimerTxt" text="0" x="-4" y="13" anchorOffsetY="0" height="31" anchorOffsetX="0" width="97" textAlign="center" verticalAlign="middle" textColor="0xff0000" size="24" background="false" stroke="1" strokeColor="0xf7cb0d" visible="false"/>
+	<e:Image id="scoreBg" source="sbg_png" x="13.98" y="77.34" visible="false"/>
+	<e:Label id="scoreTxt" text="" x="2" y="81" size="26" anchorOffsetX="0" width="83" anchorOffsetY="0" height="26" textColor="0xe6b90b" textAlign="center" bold="true" verticalAlign="middle"/>
+	<e:Rect id="button" width="90" height="90" y="-1" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+	<e:Label id="nameTxt" text="" x="-46" y="-16" anchorOffsetX="0" width="178" anchorOffsetY="0" height="26" size="18" textAlign="center" verticalAlign="middle"/>
+</e:Skin>

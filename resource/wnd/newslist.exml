@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="newslist" width="458" height="644" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="newslist1212"/>
+	<e:Image id="bg" source="xx_png" x="0" y="0"/>
+	<e:Label id="title" text="消息列表" x="218" y="47" anchorOffsetX="108" width="213" anchorOffsetY="20" height="39" textAlign="center" verticalAlign="middle"/>
+	<e:Scroller id="_scroller" width="440" height="200" x="9" y="84" anchorOffsetX="0">
+		<e:Group id="_group" y="0" anchorOffsetX="0" width="439" anchorOffsetY="0" height="226"/>
+	</e:Scroller>
+</e:Skin>

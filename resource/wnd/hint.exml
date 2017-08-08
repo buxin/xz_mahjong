@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hint" width="1166" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="sdfsd34343"/>
+	<e:Rect id="bg" width="144.24" height="116.97" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.5"/>
+	<e:Group id="_group" width="623" height="296" x="285" y="164">
+		<e:Image source="hintbg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="txt" text="标签" x="17" y="12" anchorOffsetX="0" width="594.85" anchorOffsetY="0" height="175.45" textAlign="left" verticalAlign="middle" lineSpacing="5"/>
+	</e:Group>
+</e:Skin>

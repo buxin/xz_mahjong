@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="textemoji" width="200" height="89" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="df3434"/>
+	<e:Image id="yhnumBim" source="yhnum_png" x="17" y="11"/>
+	<e:Image id="zhnumBim" source="zhnum_png" x="10" y="51"/>
+	<e:BitmapLabel id="yhnumTxt" x="57" y="13" font="flowerFont_fnt" text="x1" anchorOffsetX="0" width="105"/>
+	<e:BitmapLabel id="zhnumTxt" x="56" y="57" font="flowerFont_fnt" text="x1" anchorOffsetX="0" width="111"/>
+</e:Skin>

@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>西周麻将</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #EAEDEF;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8b3f54474964aab606e5c07d77075185";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libsrc/bin/weixinapi/weixinapi.js" src-release="libsrc/bin/weixinapi/weixinapi.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/ui/WinBase.js"></script>
+	<script egret="game" src="bin-debug/ui/WndManager.js"></script>
+	<script egret="game" src="bin-debug/GameData.js"></script>
+	<script egret="game" src="bin-debug/GameJudge.js"></script>
+	<script egret="game" src="bin-debug/JSSDK.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/MainScene.js"></script>
+	<script egret="game" src="bin-debug/MyUtils.js"></script>
+	<script egret="game" src="bin-debug/NotityWnd.js"></script>
+	<script egret="game" src="bin-debug/packetbase/Packet.js"></script>
+	<script egret="game" src="bin-debug/packetbase/PacketHead.js"></script>
+	<script egret="game" src="bin-debug/packetbase/RevicePktEvent.js"></script>
+	<script egret="game" src="bin-debug/packetbase/SocketPush.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QR8bitByte.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRBitBuffer.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRCode.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRCodeModel.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRErrorCorrectLevel.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRMaskPattern.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRMath.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRMode.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRPolynomial.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRRSBlock.js"></script>
+	<script egret="game" src="bin-debug/qrcode/QRUtil.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/ui/Notify.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/game_packet/CommonUtils.js"></script>
+	<script egret="game" src="bin-debug/wnd/AlertWnd.js"></script>
+	<script egret="game" src="bin-debug/wnd/EndWnd.js"></script>
+	<script egret="game" src="bin-debug/wnd/event/ButtonEvent.js"></script>
+	<script egret="game" src="bin-debug/wnd/event/JssdkEvent.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/Banner.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/Cards.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/EatList.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/EndButton.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/GameButton.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/GameContent.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/GiftObject.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/HeadImage.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/NewsList.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/NewsListObject.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/SendEmoji.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/SendTxt.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/SpeechHint.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/StartGame.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/SystemSettings.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/TextDialogue.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/TextEmoji.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/UserDataGift.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/UserDirection.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/UserIcon.js"></script>
+	<script egret="game" src="bin-debug/wnd/game/WatchObject.js"></script>
+	<script egret="game" src="bin-debug/wnd/GameWnd.js"></script>
+	<script egret="game" src="bin-debug/wnd/ShareWnd.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+  
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="landscapeFlipped"
+         data-scale-mode="exactFit"
+         data-frame-rate="30"
+         data-content-width="1166"
+         data-content-height="720"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <div id="gameID"> </div>
+    <script>  
+     // 手机浏览器解决方案,处理宽和高,如果是生成APP,请另一个原生JS文件,可以参照这种方式.  
+     var aspectRatio = {portrait: "竖屏", landscape: "横屏"};//横竖屏的处理  
+     var resolution = {width: 1166, height: 720};//默认宽高 
+    //处理屏幕大小改变
+    //implement for screen size change
+    var resizeTimer = null;
+     var doResize = function(){
+              if(open){
+              doResizeEvent(null);
+              }
+             //context.stage.changeSize();
+              resizeTimer = null;
+     }
+     function doResizeEvent(aspect) {  
+        var wid, hei, radio;//宽,高,像素比 
+        var w,h; 
+        //获取窗口宽度  
+        if (window && window.innerWidth)  
+            wid = window.innerWidth;  
+        else if ((document.body) && (document.body.clientWidth))  
+            wid = document.body.clientWidth;  
+        //获取窗口高度  
+        if (window && window.innerHeight)  
+            hei = window.innerHeight;  
+        else if ((document.body) && (document.body.clientHeight))  
+            hei = document.body.clientHeight;  
+        //通过深入Document内部对body进行检测，获取窗口大小  
+        if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {  
+            wid = document.documentElement.clientWidth;  
+            hei = document.documentElement.clientHeight;  
+        }  
+        //设备像素比,这里如果获取不到就自动默认为1,如果有特殊需求可以自行修改  
+        radio = window.devicePixelRatio || 1;  
+        //处理横竖屏  
+        if (aspect == null) {  
+            aspect = aspectRatio.portrait;//横竖屏自己给吧  
+        }  
+        resolution = (aspect == aspectRatio.portrait) ? {width: wid, height: hei} : {width: hei, height: wid};  
+      //  console.log(aspect+"屏幕宽:"+ resolution.width+ "|"+ "屏幕高:"+ resolution.height+ "|"+ "设备像素比:"+ radio);  
+        //下面赋值给宽高适配手机浏览器  
+          if(resolution.width>resolution.height){
+           w=resolution.width;
+           h=resolution.height;
+          }else{
+           w=resolution.height
+           h=resolution.width;
+          }
+     //alert("1");
+     var u = navigator.userAgent;
+     var rotate=true;
+     if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {//安卓手机
+     selectedHandler & selectedHandler(thisRef,w, h,radio,"android");
+       // alert(radio);
+     }else if(u.indexOf('iPad') > -1){
+        rotate=false;
+        selectedHandler & selectedHandler(thisRef,w, h,radio,"android");
+     }else if(u.indexOf('iPhone') > -1) {//苹果手机
+          selectedHandler & selectedHandler(thisRef,w, h,radio,"ios");
+   //  alert("苹果手机");
+     } else if(u.indexOf('Windows Phone') > -1) {//winphone手机
+     // alert("winphone手机");
+    selectedHandler & selectedHandler(thisRef,w, h,radio,"ios");
+     }else{
+           rotate=false;
+           w=resolution.width;
+           h=resolution.height;
+          selectedHandler & selectedHandler(thisRef,w, h,radio,"pc");
+   //  alert("浏览器");
+     }
+    
+    egret.MainContext.instance.stage.getChildByName("_main").transverse(resolution.width>resolution.height,rotate);
+      
+    };
+    window.onresize = function () {
+        if (resizeTimer == null) {
+            resizeTimer = setTimeout(doResize, 300);
+        }
+    };
+    //设置舞台大小
+                var selectedHandler;
+                var thisRef;
+                var open=false;
+                function onStageSize(selectedFunc, thisValue) {
+                   selectedHandler = selectedFunc;
+                   thisRef = thisValue;
+                   open=true;
+                   doResizeEvent(null); 
+                }
+    // 
+      /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }  
+         **/
+        egret.runEgret({renderMode:"canvas", audioType:0});
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="banner" width="1166" height="71" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1sdggh"/>
+	<e:Image source="up_png" x="0" y="0"/>
+	<e:Label id="roomIDTxt" text="房间号:" x="269.91" y="12.03" anchorOffsetX="0" width="202.42" anchorOffsetY="0" height="42.12" textAlign="center" verticalAlign="middle" textColor="0x95ee95" size="28"/>
+	<e:Label id="stakeScoreTxt" text="低分:" x="483.55" y="12.03" anchorOffsetX="0" width="141.81" anchorOffsetY="0" height="42.12" textAlign="center" verticalAlign="middle" textColor="0x95EE95" size="28"/>
+	<e:Label id="typeTxt" text="东风圈" x="625.98" y="12.03" anchorOffsetX="0" width="126.66" anchorOffsetY="0" height="42.12" textAlign="center" verticalAlign="middle" textColor="0x95EE95" size="28"/>
+	<e:Label id="gameTimeTxt" text="00:00" x="748.71" y="12.03" anchorOffsetX="0" width="159.99" anchorOffsetY="0" height="42.12" textAlign="center" verticalAlign="middle" textColor="0x95EE95" size="28"/>
+</e:Skin>
